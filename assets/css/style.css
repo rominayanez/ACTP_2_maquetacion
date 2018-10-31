@@ -1,0 +1,35 @@
+
+.navbar_barbershop {
+    background-color: #121619;
+    margin: 0;
+}
+
+.navbar__navigation {
+    margin-right: 100px;
+}
+.navbar-nav>li>a{
+    color: #FFFFFF;
+}
+.logo{
+    max-width: 50px;
+    margin-left: 150px;
+}
+.header_barbershop{
+    background-image: url(../img/post-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+h1{
+    font-family:"Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 200px;
+    padding: 50px;
+}
+.fal{
+    color: #FFFFFF;
+}
