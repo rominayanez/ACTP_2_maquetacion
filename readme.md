@@ -1,8 +1,10 @@
+Link Github Pages: https://rominayanez.github.io/ACTP_2_maquetacion/
+
 # Maquetación - Front End B-learning
 
 ## Maquetando una entrada de blog
 
-### Instrucciones: 
+### Instrucciones:
 
 Recrea el siguiente [mockup](img/barbershop-desktop.png) de una entrada de blog utilizando todos los conceptos, herramientas y metodologías aprendidas en los cursos previos.
 

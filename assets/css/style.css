@@ -160,10 +160,12 @@ footer {
         padding-top: 100px;
         background-position: center;
     }
-    .blog__p{
+
+    .blog__p {
         display: none;
     }
-    .contacto__description{
+
+    .contacto__description {
         display: none;
     }
 }
