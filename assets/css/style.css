@@ -1,35 +1,169 @@
-
 .navbar_barbershop {
     background-color: #121619;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .navbar__navigation {
     margin-right: 100px;
 }
-.navbar-nav>li>a{
+
+.navbar-inverse .navbar-nav>li>a {
     color: #FFFFFF;
 }
-.logo{
+
+.logo {
     max-width: 50px;
     margin-left: 150px;
 }
-.header_barbershop{
+
+.header_barbershop {
     background-image: url(../img/post-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+    text-align: center;
 }
-h1{
-    font-family:"Playfair Display";
+
+h1 {
+    font-family: "Playfair Display";
     font-style: italic;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4.375em;
     text-align: center;
     color: #FFFFFF;
     margin-top: 200px;
     padding: 50px;
 }
-.fal{
-    color: #FFFFFF;
+
+.icon {
+    padding-top: 80px;
+}
+
+.blog {
+    padding: 50px 200px;
+}
+
+.icon-calendar {
+    max-width: 15px;
+}
+
+.pblog {
+    display: inline-block;
+}
+
+.blog {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    color: #707070;
+    font-size: 1em;
+    padding-bottom: 25px;
+}
+
+.blog__heart-icon {
+    max-width: 2em;
+    margin-inline-start: 100px;
+}
+
+.blog__share-icon {
+    max-width: 2em;
+    margin-inline-start: 30px;
+}
+
+/* .fa-comment{
+    font-size: 1.33em;
+    margin-inline-start: 30px;
+    color: black;
+} */
+.contacto {
+    border-top: 1px solid #707070;
+}
+
+.icon__contacto {
+    text-align: center;
+    margin-top: -10px
+}
+
+.fa-user-circle {
+    font-size: 1.5em;
+    color: #707070;
+}
+
+.img__contacto {
+    max-width: 200px;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+
+.name__contacto {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+}
+
+.info__contacto {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #707070;
+    font-size: 0.9em;
+}
+
+.contacto__datos {
+    padding-left: 30px;
+}
+
+.contacto__description {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    color: #707070;
+    font-size: 0.9em;
+    padding: 30px 60px;
+}
+
+.jumbotron {
+    display: flex;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 0;
+}
+
+.jumbotron p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    color: #707070;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+footer {
+    background-color: #121619;
+    display: flex;
+    max-height: 50px;
+}
+
+.logo__footer {
+    max-width: 50px;
+    margin: auto;
+}
+
+@media only screen and (max-width : 767px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .header_barbershop {
+        height: 500px;
+        padding-top: 100px;
+        background-position: center;
+    }
+    .blog__p{
+        display: none;
+    }
+    .contacto__description{
+        display: none;
+    }
 }
